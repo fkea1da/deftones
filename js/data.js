@@ -1,0 +1,226 @@
+/* Контент сайта. Правьте тексты здесь — страницы участников и архив альбомов собираются из этих данных. */
+
+window.DEFTONES = {
+  links: {
+    official: "https://www.deftones.com",
+    tickets: "https://www.deftones.com/tour",
+    sources: "https://commons.wikimedia.org/wiki/Category:Deftones",
+  },
+
+  dates: [
+    {
+      date: "Nov 07, 2026",
+      note: "Dia de los Deftones",
+      venue: "Petco Park",
+      place: ["San Diego, CA"],
+      iso: "2026-11-07",
+    },
+    {
+      date: "May 14–16, 2027",
+      note: "Performance day TBA",
+      venue: "Kilby Block Party",
+      place: ["Utah State Fairpark", "Salt Lake City, UT"],
+      iso: "2027-05-16",
+    },
+  ],
+
+  members: [
+    {
+      id: "chino-moreno",
+      name: ["Chino", "Moreno"],
+      role: "Vocals, guitar",
+      since: "Since 1988",
+      born: "June 20, 1973 / Sacramento, USA",
+      inBandLabel: "In Deftones",
+      inBand: "Co-founder, vocalist, and guitarist",
+      photo: "assets/img/members/chino-moreno.jpg",
+      caption: ["Chino Moreno / 2014", "Wikimedia Commons"],
+      text: [
+        "Chino Moreno grew up in Sacramento. In 1988, he began Deftones with Stephen Carpenter and Abe Cunningham. His vocals became one of the band’s defining features: harsh, almost spoken phrases can shift into a soaring melody or a barely audible whisper.",
+        "On White Pony, Moreno expanded his role by adding guitar parts. In Deftones songs, his melodies and lyrics don’t explain what’s happening so much as create a feeling: anxious, sensual, fleeting. This approach connects heavy riffs with influences from new wave, post-punk, and dream pop.",
+      ],
+      aside: {
+        title: "Beyond Deftones",
+        text: "Team Sleep, Crosses (†††), and Palms show other sides of Moreno: electronics, intimate melodies, and slow-building atmospheric compositions.",
+      },
+      nextLabel: "Guitar / Next story",
+      core: true,
+    },
+    {
+      id: "stephen-carpenter",
+      name: ["Stephen", "Carpenter"],
+      role: "Guitar",
+      since: "Since 1988",
+      born: "August 3, 1970 / Sacramento, USA",
+      inBandLabel: "In Deftones",
+      inBand: "Co-founder and guitarist",
+      photo: "assets/img/members/stephen-carpenter.jpg",
+      caption: ["Rock im Park / 2016", "Wikimedia Commons"],
+      text: [
+        "Stephen Carpenter is one of the founding members of Deftones. Growing up in Sacramento, the guitarist brought a love of heavy metal and rhythmically precise riffs to the band. On early recordings, his parts combined a sharp attack with pauses and syncopation, leaving room for vocals and bass.",
+        "As the band evolved, Carpenter moved toward extended-range guitars and lower tunings. His approach is built not on constant technical display, but on the weight of the sound and repetition: one riff can sustain an entire composition. On this foundation, electronics and vocal melodies gain contrast.",
+      ],
+      aside: {
+        title: "Beyond Deftones",
+        text: "In Sol Invicto, Carpenter explores the intersection of heavy guitar music and electronics. This interest in texture exists alongside his rhythmic role in Deftones.",
+      },
+      nextLabel: "Drums / Next story",
+      core: true,
+    },
+    {
+      id: "abe-cunningham",
+      name: ["Abe", "Cunningham"],
+      role: "Drums",
+      since: "Founder",
+      born: "July 27, 1973 / Long Beach, USA",
+      inBandLabel: "In Deftones",
+      inBand: "Co-founder; returned in 1993",
+      photo: "assets/img/members/abe-cunningham.jpg",
+      caption: ["Rock am Ring / 2016", "Sven Mandel / Wikimedia Commons"],
+      text: [
+        "Abe Cunningham was born in Long Beach and grew up in Northern California. He was there at the founding of Deftones in 1988. After a break in the early nineties, he returned in 1993 before the recording of the debut album Adrenaline. His drums appear on every Deftones studio album.",
+        "Cunningham connects the force of metal playing with the fluidity of funk and hip-hop. The snare, off-center accents, and hi-hat work give the music elasticity. Even alongside extremely low guitars, the drums never become a mechanical metronome: they engage in a dialogue with the riff and the voice.",
+      ],
+      aside: {
+        title: "Early intersections",
+        text: "In the early nineties, Cunningham also played in the Sacramento band Phallucy. His return to Deftones solidified the rhythmic foundation of the lineup that recorded the first albums.",
+      },
+      nextLabel: "Keys & electronics / Next story",
+      core: true,
+    },
+    {
+      id: "frank-delgado",
+      name: ["Frank", "Delgado"],
+      role: "Keyboards, electronics",
+      since: "Since 1999",
+      born: "November 29, 1970 / Los Angeles, USA",
+      inBandLabel: "With Deftones",
+      inBand: "Contributed to early albums as a guest; became a full member in 1999",
+      photo: "assets/img/members/frank-delgado.jpg",
+      caption: ["10.06.2017", "Chris Schwegler / Wikimedia Commons"],
+      text: [
+        "Frank Delgado collaborated with Deftones before officially joining the band: his samples and turntable work appeared on Adrenaline and Around the Fur. In 1999, he became a full member. White Pony was the first album recorded with him in the lineup.",
+        "Delgado gradually expanded his role from DJ techniques to keyboards and sound design. His parts often stay in the background: they add depth, connect transitions, and hold the mood. In Deftones’ music, this is not decoration over guitars, but a separate layer of arrangement.",
+      ],
+      aside: {
+        title: "Before",
+        text: "Delgado is connected to the DJ collective Decibel Devils. His experience with records and samples helps him think of sound as material, not just a sequence of notes.",
+      },
+      nextLabel: "Bass / Next story",
+      core: true,
+    },
+    {
+      id: "fred-sablan",
+      name: ["Fred", "Sablan"],
+      role: "Bass",
+      since: "Since 2022",
+      born: "April 28, 1970 / Cupertino, USA",
+      inBandLabel: "With Deftones",
+      inBand: "Bassist since 2022; recorded Private Music",
+      photo: "assets/img/members/fred-sablan.jpg",
+      caption: ["Fred Sablan / Archive portrait", "Wikimedia Commons"],
+      text: [
+        "Fred Sablan is an American bassist with experience in the alternative rock scene. Before Deftones, he played with Marilyn Manson and participated in other projects and live lineups. In 2022, Sablan joined Deftones’ live performances after Sergio Vega’s departure.",
+        "For a Deftones bassist, it is essential to maintain a heavy rhythmic foundation while leaving room for extended melodies. Sablan entered the band’s already established musical language, and Private Music, released in 2025, became the first Deftones studio album to feature him.",
+      ],
+      aside: {
+        title: "Before",
+        text: "Among other projects, Sablan has worked with Heavens Blade. His previous experience in heavy and alternative music preceded his joining Deftones’ live lineup.",
+      },
+      nextLabel: "Memorial page / Next story",
+      core: true,
+    },
+    {
+      id: "chi-cheng",
+      name: ["Chi", "Cheng"],
+      role: "Bass",
+      since: "In memoriam / 1970—2013",
+      short: "Bass. A part of the sound that remains forever.",
+      born: "July 15, 1970 / Stockton, USA",
+      inBandLabel: "In memoriam",
+      inBand: "July 15, 1970 — April 13, 2013",
+      photo: "assets/img/members/chi-cheng.jpg",
+      caption: ["Chi Cheng / Archive portrait", "Wikimedia Commons"],
+      text: [
+        "Chi joined Deftones in 1990. His bass is heard on the first five studio albums, from Adrenaline to Saturday Night Wrist. Alongside Abe Cunningham, he formed a rhythm section where heavy accents blended with movement and a distinct melodic pulse.",
+        "In November 2008, Cheng suffered severe injuries in a car accident and never returned to performing. He passed away on April 13, 2013. This page is dedicated to his life and musical legacy — not just the loss, but the recordings where his presence remains alive.",
+      ],
+      aside: {
+        title: "Musician, Poet",
+        text: "In 2000, Cheng released The Bamboo Parachute — a spoken-word album featuring readings of his own poetry. It is a quieter side of his work, beyond the bass.",
+      },
+      nextLabel: "Former bassist / Next story",
+      memorial: true,
+    },
+    {
+      id: "sergio-vega",
+      name: ["Sergio", "Vega"],
+      role: "Bass",
+      since: "Former member / 2009—2021",
+      short: "Bass. From Diamond Eyes to Ohms.",
+      born: "August 25, 1969 / New York, USA",
+      inBandLabel: "With the band",
+      inBand: "2009—2021; departure announced in 2022",
+      photo: "assets/img/members/sergio-vega.jpg",
+      caption: ["Sergio Vega / 2013", "Wikimedia Commons"],
+      text: [
+        "Sergio Vega grew up in New York and became known as the bassist of the post-hardcore band Quicksand. In 2009, he began performing and recording with Deftones after Chi Cheng’s accident. The first studio work of this chapter was Diamond Eyes, released in 2010.",
+        "Vega contributed to four albums: Diamond Eyes, Koi No Yokan, Gore, and Ohms. His parts supported the low guitar range while maintaining their own independence. In 2022, he publicly announced that his collaboration with the band had ended in 2021.",
+      ],
+      aside: {
+        title: "Parallel History",
+        text: "Quicksand is an important part of Vega’s musical biography. His work with the band continued after the reunion, running parallel to his chapter with Deftones.",
+      },
+      nextLabel: "Vocals & guitar / Next story",
+    },
+  ],
+
+  albums: [
+    {
+      id: "adrenaline", title: "Adrenaline", year: 1995, cover: "assets/img/covers/adrenaline.jpg",
+      tracks: [["Bored","4:06"],["Minus Blindfold","4:04"],["One Weak","4:29"],["Nosebleed","4:26"],["Lifter","4:43"],["Root","3:41"],["7 Words","3:44"],["Birthmark","4:18"],["Engine No. 9","3:25"],["Fireal","6:35"],["Fist","3:35"]],
+      note: { label: "Edition note", text: "Fist is the original CD’s hidden track, separately indexed as track 11." },
+    },
+    {
+      id: "around-the-fur", title: "Around the Fur", year: 1997, cover: "assets/img/covers/around-the-fur.jpg",
+      tracks: [["My Own Summer (Shove It)","3:35"],["Lhabia","4:11"],["Mascara","3:45"],["Around the Fur","3:31"],["Rickets","2:42"],["Be Quiet and Drive (Far Away)","5:08"],["Lotion","3:57"],["Dai the Flu","4:36"],["Headup","5:12"],["MX","37:19"]],
+      note: { label: "Original CD / Hidden material", text: "37:19 is the full original CD track, not the length of MX’s music (4:52). After long silences: Bong Hit (0:23) begins at 19:32; Damone (4:43) at 32:36. This hidden material is not separately indexed and is omitted on vinyl." },
+    },
+    {
+      id: "white-pony", title: "White Pony", year: 2000, cover: "assets/img/covers/white-pony.jpg",
+      tracks: [["Feiticeira","3:09"],["Digital Bath","4:15"],["Elite","4:01"],["Rx Queen","4:27"],["Street Carp","2:41"],["Teenager","3:20"],["Knife Prty","4:49"],["Korea","3:23"],["Passenger","6:07"],["Change (In the House of Flies)","4:59"],["Pink Maggit","7:32"]],
+      note: { label: "Edition note", text: "Original 2000 gray-cover standard edition. Excludes Back to School (Mini Maggit), added to a later reissue, and limited-edition bonus The Boy’s Republic." },
+    },
+    {
+      id: "deftones", title: "Deftones", year: 2003, cover: "assets/img/covers/deftones.jpg",
+      tracks: [["Hexagram","4:09"],["Needles and Pins","3:23"],["Minerva","4:17"],["Good Morning Beautiful","3:28"],["Deathblow","5:28"],["When Girls Telephone Boys","4:36"],["Battle-Axe","5:01"],["Lucky You","4:10"],["Bloody Cape","3:38"],["Anniversary of an Uninteresting Event","3:57"],["Moana","5:02"]],
+    },
+    {
+      id: "saturday-night-wrist", title: "Saturday Night Wrist", year: 2006, cover: "assets/img/covers/saturday-night-wrist.jpg",
+      tracks: [["Hole in the Earth","4:09"],["Rapture","3:25"],["Beware","6:00"],["Cherry Waves","5:17"],["Mein","3:59"],["U,U,D,D,L,R,L,R,A,B,Select,Start","4:12"],["Xerces","3:42"],["Rats!Rats!Rats!","4:01"],["Pink Cellphone","5:04"],["Combat","4:46"],["Kimdracula","3:14"],["Rivière","3:45"]],
+      note: { label: "Edition note", text: "Standard explicit edition; no bonus tracks." },
+    },
+    {
+      id: "diamond-eyes", title: "Diamond Eyes", year: 2010, cover: "assets/img/covers/diamond-eyes.jpg",
+      about: "A focused blend of crushing alternative-metal riffs, dreamy textures, and melodic uplift.",
+      tracks: [["Diamond Eyes","3:09"],["Royal","3:31"],["CMND/CTRL","2:26"],["You’ve Seen the Butcher","3:34"],["Beauty School","4:50"],["Prince","3:37"],["Rocket Skates","4:18"],["Sextape","4:02"],["Risk","3:37"],["976-EVIL","4:32"],["This Place Is Death","3:46"]],
+    },
+    {
+      id: "koi-no-yokan", title: "Koi No Yokan", year: 2012, cover: "assets/img/covers/koi-no-yokan.jpg",
+      about: "An expansive, atmospheric album that intertwines heavy grooves with shoegaze-like shimmer and soaring melodies.",
+      tracks: [["Swerve City","2:44"],["Romantic Dreams","4:38"],["Leathers","4:08"],["Poltergeist","3:31"],["Entombed","4:59"],["Graphic Nature","4:32"],["Tempest","6:05"],["Gauze","4:41"],["Rosemary","6:53"],["Goon Squad","5:40"],["What Happened to You?","3:53"]],
+    },
+    {
+      id: "gore", title: "Gore", year: 2016, cover: "assets/img/covers/gore.jpg",
+      tracks: [["Prayers / Triangles","3:38"],["Acid Hologram","4:06"],["Doomed User","4:27"],["Geometric Headdress","3:29"],["Hearts / Wires","5:21"],["Pittura Infamante","4:04"],["Xenon","3:17"],["(L)MIRL","5:02"],["Gore","4:59"],["Phantom Bride","4:53"],["Rubicon","4:58"]],
+    },
+    {
+      id: "ohms", title: "Ohms", year: 2020, cover: "assets/img/covers/ohms.jpg",
+      tracks: [["Genesis","5:17"],["Ceremony","3:27"],["Urantia","4:30"],["Error","4:50"],["The Spell of Mathematics","5:27"],["Pompeji","5:25"],["This Link Is Dead","4:37"],["Radiant City","3:35"],["Headless","4:59"],["Ohms","4:10"]],
+    },
+    {
+      id: "private-music", title: "Private Music", year: 2025, cover: "assets/img/covers/private-music.jpg",
+      tracks: [["my mind is a mountain","2:50"],["locked club","2:52"],["ecdysis","3:28"],["infinite source","3:32"],["souvenir","6:10"],["cXz","3:12"],["i think about you all the time","4:08"],["milk of the madonna","4:08"],["cut hands","3:01"],["~metal dream","3:02"],["departing the body","5:59"]],
+    },
+  ],
+};

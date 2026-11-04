@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>deftones / archive — unofficial fan archive</title>
+  <meta name="description" content="Independent fan archive of Deftones: history, discography, members and upcoming dates. Sacramento, CA / 1988—">
+  <meta name="theme-color" content="#050909">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%23050909%22/%3E%3Ctext x=%2216%22 y=%2224%22 font-family=%22Georgia,serif%22 font-style=%22italic%22 font-size=%2224%22 fill=%22%23ece8dc%22 text-anchor=%22middle%22%3Ed%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-600-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="deftones — home"><span class="brand__logo">deftones</span></a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#history" class="is-active">History</a>
+        <a href="#discography">Discography</a>
+        <a href="#members">Members</a>
+        <a href="#memory">Memory</a>
+        <a href="#dates">Upcoming Dates</a>
+      </nav>
+      <div class="header-end">
+        <span class="lang">EN</span>
+        <button class="menu-toggle" aria-label="Menu" aria-controls="nav" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-label="deftones">
+      <img class="hero__img" src="assets/img/hero-owl.jpg" alt="" fetchpriority="high">
+      <h1 class="hero__title">deftones</h1>
+    </section>
+
+
+    <section class="release" aria-label="Latest release">
+      <div class="wrap">
+        <img class="release__cover reveal" src="assets/img/covers/private-music.jpg" alt="Private Music cover" width="168" height="168">
+        <h2 class="release__title display reveal" style="--d:.08s">Private Music</h2>
+        <div class="release__meta reveal" style="--d:.16s">
+          <p class="eyebrow">August 22, 2025 / Reprise</p>
+          <a class="btn" href="albums.html">Full discography
+            <svg class="arrow" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M3.2 2H8v4.8" stroke="currentColor" stroke-width="1.1"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="dates">
+      <div class="wrap">
+        <h2 class="section-title display reveal">Upcoming Dates</h2>
+        <div class="dates" id="dates-list"></div>
+        <p class="dates-note">Dates subject to change / check official listings</p>
+      </div>
+    </section>
+
+
+    <section class="section" id="history">
+      <div class="wrap">
+        <h2 class="section-label reveal">01 / History</h2>
+        <div class="history">
+          <div class="reveal">
+            <p class="history__lead">Deftones formed in Sacramento in 1988. They are often linked to alternative metal, but the genre boundaries were always too narrow: their style varies from sharp guitar attacks to weightless soundscapes.</p>
+            <div class="era">
+              <span class="era__years">1988—1997</span>
+              <p>The band formed in 1988 around Chino Moreno, Stephen Carpenter, and Abe Cunningham. Chi Cheng joined in 1990. Adrenaline and Around the Fur took Deftones beyond the local scene.</p>
+            </div>
+          </div>
+
+          <figure class="figure history__figure reveal" style="--d:.08s">
+            <img src="assets/img/history-2011.jpg" alt="Deftones on stage, 2011" loading="lazy" width="1600" height="1068">
+            <figcaption><span>Archive / 2011</span><span>Wikimedia Commons</span></figcaption>
+          </figure>
+
+          <div class="history__right reveal" style="--d:.16s">
+            <div class="era">
+              <span class="era__years">2000—2006</span>
+              <p>On White Pony, heaviness meets trip-hop, electronics, and dream pop. Frank Delgado, who became a full-time member in 1999, expanded the palette. Deftones and Saturday Night Wrist continued this search.</p>
+            </div>
+            <div class="era">
+              <span class="era__years">2008—2025</span>
+              <p>After Chi’s accident in 2008, Sergio Vega took over the bass parts. Chi passed away in 2013. In 2022, Fred Sablan joined the stage. After Ohms came Private Music — the tenth studio album.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="discography">
+      <div class="wrap">
+        <h2 class="section-label reveal">02 / Discography</h2>
+        <div class="grid-5" id="discography-grid"></div>
+      </div>
+    </section>
+
+
+    <section class="section" id="members">
+      <div class="wrap">
+        <h2 class="section-label reveal">03 / Members</h2>
+        <div class="grid-5" id="members-grid"></div>
+
+        <div class="chapters-head reveal"><span class="eyebrow">Other chapters of the story</span></div>
+        <div class="chapters" id="chapters"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__top">
+        <div>
+          <p class="site-footer__logo">deftones / archive</p>
+          <p class="site-footer__tagline">Music that stays with us. Sacramento — and beyond.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="https://www.deftones.com" target="_blank" rel="noopener">Official site <svg class="arrow" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M3.2 2H8v4.8" stroke="currentColor" stroke-width="1.1"/></svg></a>
+          <a href="albums.html">Releases <svg class="arrow" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M3.2 2H8v4.8" stroke="currentColor" stroke-width="1.1"/></svg></a>
+          <a href="https://commons.wikimedia.org/wiki/Category:Deftones" target="_blank" rel="noopener">Sources <svg class="arrow" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M3.2 2H8v4.8" stroke="currentColor" stroke-width="1.1"/></svg></a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <span>Independent fan project. Not affiliated with the band or label. Photos: Wikimedia Commons; covers: Wikimedia / rights holders. Biographies: official materials and release archives.</span>
+        <span>Sacramento, CA / 1988—</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top"><svg viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M3.2 2H8v4.8" stroke="currentColor" stroke-width="1.1"/></svg></button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
